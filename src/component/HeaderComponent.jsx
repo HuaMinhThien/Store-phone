@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import SearchBar from "./SearchBar";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 
 export default function HeaderComponent() {
   const [user, setUser] = useState(() => {
@@ -32,7 +32,9 @@ export default function HeaderComponent() {
           <h1>Aura Store</h1>
         </Link>
 
-        <SearchBar />
+        <Suspense fallback={<div className="search-placeholder">Đang tải...</div>}>
+          <SearchBar />
+        </Suspense>
 
         {/* Link Sản phẩm */}
         <Link href="/product" className="head-cart head1-hover">
