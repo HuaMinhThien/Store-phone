@@ -1,0 +1,491 @@
+{
+  "brands": [
+    {
+      "id": "1",
+      "name": "Xiaomi",
+      "slug": "xiaomi",
+      "img": "Logo-Xiaomi.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Samsung",
+      "slug": "samsung",
+      "img": "samsung.png"
+    },
+    {
+      "name": "iPhone",
+      "slug": "iphone",
+      "img": "apple.png",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Oppo",
+      "slug": "oppo",
+      "img": "logo-oppo-1.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "brand_id": "1",
+      "status": true,
+      "name": "Xiaomi 14",
+      "slug": "xiaomi-14",
+      "display_sale_percent": 15,
+      "img": "2024_3_12_638458484678331118_xiaomi-14-xanh-png.webp",
+      "sold": 1300,
+      "quantity": 10,
+      "storage_options": [
+        {
+          "storage": "256GB",
+          "price": 16990000,
+          "old_price": 19990000,
+          "sale_percent": 15
+        }
+      ],
+      "colors": [
+        "Xanh"
+      ]
+    },
+    {
+      "id": "2",
+      "brand_id": "1",
+      "status": true,
+      "name": "Xiaomi 14T Pro",
+      "slug": "xiaomi-14t-pro",
+      "display_sale_percent": 11,
+      "img": "xiaomi_14t_pro_titan_gray_1_45b1866e10.webp",
+      "sold": 3300,
+      "quantity": 15,
+      "storage_options": [
+        {
+          "storage": "256GB",
+          "price": 15990000,
+          "old_price": 17990000,
+          "sale_percent": 11
+        },
+        {
+          "storage": "512GB",
+          "price": 17990000,
+          "old_price": 19990000,
+          "sale_percent": 10
+        }
+      ],
+      "colors": [
+        "Titan Gray"
+      ]
+    },
+    {
+      "id": "3",
+      "brand_id": "1",
+      "status": true,
+      "name": "Xiaomi 15",
+      "slug": "xiaomi-15",
+      "display_sale_percent": 5,
+      "img": "xiaomi_15_xanh_5_a701ff995d.webp",
+      "sold": 5000,
+      "quantity": 8,
+      "storage_options": [
+        {
+          "storage": "256GB",
+          "price": 17990000,
+          "old_price": 18990000,
+          "sale_percent": 5
+        },
+        {
+          "storage": "512GB",
+          "price": 19990000,
+          "old_price": 21990000,
+          "sale_percent": 9
+        }
+      ],
+      "colors": [
+        "Xanh"
+      ]
+    },
+    {
+      "id": "4",
+      "brand_id": "1",
+      "status": true,
+      "name": "Redmi Note 14 Pro+",
+      "slug": "redmi-note-14-pro-plus",
+      "display_sale_percent": 15,
+      "img": "xiaomi_redmi_note_14_pro_plus_xanh_4_e806921029.webp",
+      "sold": 4500,
+      "quantity": 20,
+      "storage_options": [
+        {
+          "storage": "256GB",
+          "price": 10990000,
+          "old_price": 12990000,
+          "sale_percent": 15
+        },
+        {
+          "storage": "512GB",
+          "price": 12490000,
+          "old_price": 14490000,
+          "sale_percent": 14
+        }
+      ],
+      "colors": [
+        "Xanh"
+      ]
+    },
+    {
+      "id": "5",
+      "brand_id": "2",
+      "status": true,
+      "name": "Samsung Galaxy S25+",
+      "slug": "samsung-galaxy-s25-plus",
+      "display_sale_percent": 8,
+      "img": "galaxy_s25_plus_blue_1_xanhDuongNhat.webp",
+      "sold": 1000,
+      "quantity": 12,
+      "storage_options": [
+        {
+          "storage": "256GB",
+          "price": 23990000,
+          "old_price": 25990000,
+          "sale_percent": 8
+        },
+        {
+          "storage": "512GB",
+          "price": 25990000,
+          "old_price": 28990000,
+          "sale_percent": 10
+        }
+      ],
+      "colors": [
+        "Xanh Dương Nhạt",
+        "Xanh Lá",
+        "Xanh Navy",
+        "Xám Bạc"
+      ]
+    },
+    {
+      "id": "6",
+      "brand_id": "2",
+      "status": true,
+      "name": "Samsung Galaxy S25 Ultra",
+      "slug": "samsung-galaxy-s25-ultra",
+      "display_sale_percent": 9,
+      "img": "galaxy_s25_ultra_titan_black_1_den.webp",
+      "sold": 7700,
+      "quantity": 7,
+      "storage_options": [
+        {
+          "storage": "256GB",
+          "price": 31990000,
+          "old_price": 34990000,
+          "sale_percent": 9
+        },
+        {
+          "storage": "512GB",
+          "price": 34990000,
+          "old_price": 37990000,
+          "sale_percent": 8
+        },
+        {
+          "storage": "1TB",
+          "price": 39990000,
+          "old_price": 44990000,
+          "sale_percent": 11
+        }
+      ],
+      "colors": [
+        "Đen"
+      ]
+    },
+    {
+      "id": "7",
+      "brand_id": "2",
+      "status": true,
+      "name": "Samsung Galaxy A56 5G",
+      "slug": "samsung-galaxy-a56-5g",
+      "display_sale_percent": 14,
+      "img": "samssung_galaxy_a56_den_09aa2ad5be.webp",
+      "sold": 1000,
+      "quantity": 25,
+      "storage_options": [
+        {
+          "storage": "128GB",
+          "price": 8990000,
+          "old_price": 10490000,
+          "sale_percent": 14
+        },
+        {
+          "storage": "256GB",
+          "price": 9990000,
+          "old_price": 11490000,
+          "sale_percent": 13
+        }
+      ],
+      "colors": [
+        "Đen",
+        "Xanh"
+      ]
+    },
+    {
+      "id": "8",
+      "brand_id": "2",
+      "status": true,
+      "name": "Samsung Galaxy S24 FE",
+      "slug": "samsung-galaxy-s24-fe",
+      "display_sale_percent": 18,
+      "img": "samssung_galaxy_s24_fe_dd_b946d2a8e8.webp",
+      "sold": 1000,
+      "quantity": 18,
+      "storage_options": [
+        {
+          "storage": "128GB",
+          "price": 13990000,
+          "old_price": 16990000,
+          "sale_percent": 18
+        },
+        {
+          "storage": "256GB",
+          "price": 15490000,
+          "old_price": 18490000,
+          "sale_percent": 16
+        }
+      ],
+      "colors": [
+        "Vàng",
+        "Xám",
+        "Xanh"
+      ]
+    },
+    {
+      "id": "9",
+      "brand_id": "2",
+      "status": true,
+      "name": "Samsung Galaxy A36 5G",
+      "slug": "samsung-galaxy-a36-5g",
+      "display_sale_percent": 11,
+      "img": "samsung_galaxy_a36_dd_71cba41598.webp",
+      "sold": 1000,
+      "quantity": 22,
+      "storage_options": [
+        {
+          "storage": "128GB",
+          "price": 7990000,
+          "old_price": 8990000,
+          "sale_percent": 11
+        },
+        {
+          "storage": "256GB",
+          "price": 8990000,
+          "old_price": 9990000,
+          "sale_percent": 10
+        }
+      ],
+      "colors": [
+        "Đen",
+        "Xanh",
+        "Hồng"
+      ]
+    },
+    {
+      "id": "10",
+      "brand_id": "2",
+      "status": true,
+      "name": "Samsung Galaxy Z Flip7",
+      "slug": "samsung-galaxy-z-flip7",
+      "display_sale_percent": 9,
+      "img": "samsung_galaxy_z_flip7_do_1_5d87026b00.webp",
+      "sold": 1000,
+      "quantity": 5,
+      "storage_options": [
+        {
+          "storage": "256GB",
+          "price": 28990000,
+          "old_price": 31990000,
+          "sale_percent": 9
+        },
+        {
+          "storage": "512GB",
+          "price": 30990000,
+          "old_price": 33990000,
+          "sale_percent": 8
+        }
+      ],
+      "colors": [
+        "Đỏ"
+      ]
+    },
+    {
+      "id": "11",
+      "brand_id": "2",
+      "status": true,
+      "name": "Samsung Galaxy Z Fold6",
+      "slug": "samsung-galaxy-z-fold6",
+      "display_sale_percent": 12,
+      "img": "samsung_galaxy_z_fold6_dd_daf2dd25b5.webp",
+      "sold": 1000,
+      "quantity": 4,
+      "storage_options": [
+        {
+          "storage": "256GB",
+          "price": 34990000,
+          "old_price": 39990000,
+          "sale_percent": 12
+        },
+        {
+          "storage": "512GB",
+          "price": 36990000,
+          "old_price": 41990000,
+          "sale_percent": 11
+        },
+        {
+          "storage": "1TB",
+          "price": 41990000,
+          "old_price": 46990000,
+          "sale_percent": 10
+        }
+      ],
+      "colors": [
+        "Xám",
+        "Xanh",
+        "Hồng"
+      ]
+    }
+  ],
+  "user": [
+    {
+      "id": "1c5a",
+      "name": "thienadmin",
+      "email": "thienadmin@gmail.com",
+      "phone": "0906761390",
+      "password": "admin123",
+      "address": "Mỹ Lộc, TP HCM",
+      "role": "admin",
+      "status": true
+    },
+    {
+      "id": "a4fa",
+      "name": "Thien day ne",
+      "email": "minhthien@gmail.com",
+      "phone": "0906761390",
+      "password": "123456",
+      "address": "Mỹ Lộc, TP HCM",
+      "role": "user",
+      "status": true
+    },
+    {
+      "id": "4e27",
+      "name": "Thien Minh",
+      "email": "huaminhthien.18022019@gmail.com",
+      "phone": "0906761390",
+      "password": "123456",
+      "address": "Mỹ Lộc, TP HCM",
+      "role": "user",
+      "status": true
+    }
+  ],
+  "order": [
+    {
+      "id": "ca65",
+      "id_user": "4e27",
+      "name_user": "Thien Minh",
+      "email_user": "huaminhthien.18022019@gmail.com",
+      "address": "Mỹ Lộc",
+      "phone": "0906761390",
+      "note": "dễ vỡ ",
+      "status": "Đang giao",
+      "total_price": 88950000,
+      "cart": [
+        {
+          "id": "3",
+          "brand": "1",
+          "name": "Xiaomi 15",
+          "slug": "xiaomi-15",
+          "img": "xiaomi_15_xanh_5_a701ff995d.webp",
+          "sold": 5000,
+          "storage_options": {
+            "storage": "512GB",
+            "price": 19990000,
+            "old_price": 21990000
+          },
+          "color": "Xanh",
+          "cart_quantity": 4
+        },
+        {
+          "id": "7",
+          "brand": "2",
+          "name": "Samsung Galaxy A56 5G",
+          "slug": "samsung-galaxy-a56-5g",
+          "img": "samssung_galaxy_a56_den_09aa2ad5be.webp",
+          "sold": 1000,
+          "storage_options": {
+            "storage": "128GB",
+            "price": 8990000,
+            "old_price": 10490000
+          },
+          "color": "Đen",
+          "cart_quantity": 1
+        }
+      ],
+      "created_at": "2026-04-10T06:15:42.794Z"
+    },
+    {
+      "id": "3649",
+      "id_user": 0,
+      "name_user": "Hứa Minh Thiên",
+      "email_user": "huaminhthien.18022019@gmail.com",
+      "address": "Mỹ Lộc",
+      "phone": "0906761390",
+      "note": "nhanh",
+      "status": "Đang xử lý",
+      "total_price": 48470000,
+      "cart": [
+        {
+          "id": "5",
+          "brand": "2",
+          "name": "Samsung Galaxy S25+",
+          "slug": "samsung-galaxy-s25-plus",
+          "img": "galaxy_s25_plus_blue_1_xanhDuongNhat.webp",
+          "sold": 1000,
+          "storage_options": {
+            "storage": "512GB",
+            "price": 25990000,
+            "old_price": 28990000
+          },
+          "color": "Xanh Dương Nhạt",
+          "cart_quantity": 1
+        },
+        {
+          "id": "4",
+          "brand": "1",
+          "name": "Redmi Note 14 Pro+",
+          "slug": "redmi-note-14-pro-plus",
+          "img": "xiaomi_redmi_note_14_pro_plus_xanh_4_e806921029.webp",
+          "sold": 4500,
+          "storage_options": {
+            "storage": "512GB",
+            "price": 12490000,
+            "old_price": 14490000
+          },
+          "color": "Xanh",
+          "cart_quantity": 1
+        },
+        {
+          "id": "7",
+          "brand": "2",
+          "name": "Samsung Galaxy A56 5G",
+          "slug": "samsung-galaxy-a56-5g",
+          "img": "samssung_galaxy_a56_den_09aa2ad5be.webp",
+          "sold": 1000,
+          "storage_options": {
+            "storage": "256GB",
+            "price": 9990000,
+            "old_price": 11490000
+          },
+          "color": "Đen",
+          "cart_quantity": 1
+        }
+      ],
+      "created_at": "2026-04-10T06:38:45.308Z"
+    }
+  ]
+}

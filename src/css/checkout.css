@@ -1,0 +1,142 @@
+/* Checkout Scoped CSS */
+.as-checkout {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.as-checkout__container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 400px; /* Bố cục 2 cột */
+    gap: 30px;
+    padding: 0 15px;
+}
+
+.as-checkout__section {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-top: 40px;
+}
+
+.as-checkout__title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #1d1d1f;
+}
+
+/* Reusable Components */
+.as-input, .as-select, .as-textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #d2d2d7;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.as-input:focus {
+    border-color: #0071e3;
+}
+
+.as-checkout__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+/* Sidebar & Summary */
+.as-summary {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    position: sticky;
+    top: 100px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+
+.as-prod-item {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.as-prod-item__img img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    border: 1px solid #f2f2f2;
+}
+
+.as-prod-item__name {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.as-prod-item__price {
+    color: #e30019;
+    font-weight: 700;
+}
+
+/* Payment Items */
+.as-payment__item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #d2d2d7;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.as-payment__item:has(input:checked) {
+    border-color: #0071e3;
+    background-color: #f5faff;
+}
+
+/* Buttons */
+.as-btn {
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.as-btn--primary {
+    background-color: #0071e3;
+    color: #fff;
+}
+
+.as-btn--secondary {
+    background-color: #1d1d1f;
+    color: #fff;
+}
+
+.as-btn--large {
+    width: 100%;
+    padding: 18px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.as-total-price {
+    font-size: 22px;
+    color: #e30019;
+    font-weight: 800;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .as-checkout__container {
+        grid-template-columns: 1fr;
+    }
+}

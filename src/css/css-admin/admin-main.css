@@ -1,0 +1,138 @@
+.aura-admin-scope {
+    --ad-primary: #4f46e5; /* Indigo hiện đại */
+    --ad-primary-hover: #4338ca;
+    --ad-bg: #f1f5f9;
+    --ad-sidebar: #ffffff;
+    --ad-text-main: #1e293b;
+    --ad-text-sub: #64748b;
+    --ad-white: #ffffff;
+    --ad-border: #e2e8f0;
+    --ad-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.aura-admin-scope .ad-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--ad-bg);
+    font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Sidebar Hiện Đại */
+.aura-admin-scope .ad-sidebar {
+    width: 280px;
+    background: var(--ad-sidebar);
+    border-right: 1px solid var(--ad-border);
+    display: flex;
+    flex-direction: column;
+}
+
+.aura-admin-scope .ad-logo {
+    padding: 32px 24px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--ad-primary);
+    letter-spacing: -0.5px;
+}
+
+.aura-admin-scope .ad-nav-item {
+    margin: 4px 16px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    color: var(--ad-text-sub);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.aura-admin-scope .ad-nav-item:hover {
+    background: #f8fafc;
+    color: var(--ad-primary);
+}
+
+.aura-admin-scope .ad-nav-item.is-active {
+    background: var(--ad-primary);
+    color: var(--ad-white);
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3);
+}
+
+/* Content Area */
+.aura-admin-scope .ad-main {
+    flex: 1;
+    padding: 40px;
+}
+
+.aura-admin-scope .ad-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.aura-admin-scope .ad-title {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--ad-text-main);
+    margin: 0;
+}
+
+/* Card & Table */
+.aura-admin-scope .ad-card {
+    background: var(--ad-white);
+    border-radius: 16px;
+    border: 1px solid var(--ad-border);
+    box-shadow: var(--ad-shadow);
+    overflow: hidden;
+}
+
+.aura-admin-scope .ad-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.aura-admin-scope .ad-table th {
+    background: #f8fafc;
+    padding: 16px 24px;
+    text-align: left;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--ad-text-sub);
+    border-bottom: 1px solid var(--ad-border);
+}
+
+.aura-admin-scope .ad-table td {
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--ad-border);
+    color: var(--ad-text-main);
+    font-size: 0.935rem;
+}
+
+/* Button & Badge */
+.aura-admin-scope .ad-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.aura-admin-scope .ad-btn-primary {
+    background: var(--ad-primary);
+    color: white;
+}
+
+.aura-admin-scope .ad-btn-primary:hover {
+    background: var(--ad-primary-hover);
+}
+
+.aura-admin-scope .ad-badge {
+    padding: 6px 12px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
